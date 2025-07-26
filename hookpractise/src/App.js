@@ -9,6 +9,9 @@ import Reducer from './hooks/useReducer/Reducer';
 import Cart from './hooks/useMemo/Cart';
 import ParentIndex from './hooks/useCallback/ParentIndex';
 import Index from './hooks/useTransition/Index';
+import RefIndex from './hooks/useRef/RefIndex';
+import IDIndex from './hooks/useId/IDIndex';
+import CustomIndex from './hooks/CustomHook/CustomIndex';
  
 function App() {
   return (
@@ -31,7 +34,16 @@ function App() {
       {/* <ParentIndex /> */}
 
       {/* usetransition hook */}
-      <Index />
+      {/* <Index /> */}
+
+      {/* useref hook */}
+      {/* <RefIndex /> */}
+
+      {/* useid  */}
+      {/* <IDIndex /> */}
+
+      {/* custom hook  */}
+      <CustomIndex />
     </div>
   );
 }
